@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import { useRouter } from 'next/dist/client/router'
 import { format } from 'date-fns'
 import InfoCard from '../components/utils/infoCard'
-import Map from '../components/utils/Map'
+import Map from '../components/utils/map'
 
 function Search({searchResults}) {
      const router = useRouter();
